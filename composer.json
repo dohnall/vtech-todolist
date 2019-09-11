@@ -1,0 +1,27 @@
+{
+    "name": "dohnall/vtech-todolist",
+    "description": "You can create the to-do-list of your task.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lukas Dohnal",
+            "email": "dohnal@gramonet.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dohnall\\Vtech-todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dohnall\\Vtech-todolist\\": "src/"
+        }
+    }
+}
